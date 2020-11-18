@@ -1,0 +1,122 @@
+{
+	"roles": [
+		{
+			"id": 1,
+			"title": "CEO",
+			"organisation_name_override": "Sparx"
+		},
+		{
+			"id": 2,
+			"title": "Non-Executive Director",
+			"organisation_name_override": "Sparx"
+		}
+	],
+	"meeting_settings": [
+		{
+			"id": 1,
+			"roleId": "1",
+			"duration_minutes": 60,
+			"meet_before": true,
+			"meet_before_duration": 15,
+			"meetings_per_day_is_capped": true,
+			"meetings_per_day_cap": 2
+		},
+		{
+			"id": 2,
+			"roleId": "2",
+			"duration_minutes": 120,
+			"meet_before": true,
+			"meet_before_duration": 20,
+			"meetings_per_day_is_capped": false,
+			"meetings_per_day_cap": 2
+		}
+	],
+	"organisation_attendees": [
+		{
+			"roleId": "2",
+			"id": "1",
+			"name": "John Seamore",
+			"confirmed": true
+		},
+		{
+			"roleId": "2",
+			"id": "2",
+			"name": "Phillip Caskell",
+			"confirmed": true
+		},
+		{
+			"roleId": "2",
+			"id": "3",
+			"name": "John Seamore",
+			"confirmed": true
+		},
+		{
+			"roleId": "1",
+			"id": "4",
+			"name": "Phillip Caskell",
+			"confirmed": true
+		},
+		{
+			"roleId": "1",
+			"id": "5",
+			"name": "Andrew Hoffman",
+			"confirmed": true,
+			"notes": "Independent investor"
+		}
+	],
+	"candidates": [
+		{
+			"roleId": "1",
+			"id": "1",
+			"name": "Hugo Brook",
+			"meeting_status": "arranged",
+			"meeting_start": "2022-12-25T10:00:00Z"
+		},
+		{
+			"roleId": "1",
+			"id": "2",
+			"name": "Gareth Cokell",
+			"meeting_status": "requested",
+			"meeting_start": null
+		},
+		{
+			"roleId": "2",
+			"id": "3",
+			"name": "Charlotte Gandell",
+			"meeting_status": "arranged",
+			"meeting_start": "2022-12-25T10:00:00Z"
+		},
+		{
+			"roleId": "2",
+			"id": "4",
+			"name": "Stuart Sewell",
+			"meeting_status": "arranged",
+			"meeting_start": "2022-12-25T10:00:00Z"
+		},
+		{
+			"roleId": "2",
+			"id": "5",
+			"name": "Josh Jackson",
+			"meeting_status": "requested_more_dates",
+			"meeting_start": "2022-12-25T10:00:00Z"
+		},
+		{
+			"name": "Stuart Sewell",
+			"email": "stuart.sewell@nurole.com",
+			"notes": "",
+			"roleId": "1",
+			"confirmed": true,
+			"custom": true,
+			"id": "MZTsOeO"
+		},
+		{
+			"name": "Dan Brown",
+			"email": "dan.brown@gmail.com",
+			"notes": "Browning",
+			"roleId": "1",
+			"confirmed": true,
+			"custom": true,
+			"id": "L7NUeW0"
+		}
+	]
+}
